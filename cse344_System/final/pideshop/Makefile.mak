@@ -9,14 +9,14 @@ all: $(TARGETS)
 PideShop: PideShop.o
 	$(CC) $(CFLAGS) -o PideShop PideShop.o
 
-PideShop.o: PideShop.c
-	$(CC) $(CFLAGS) -c PideShop.c
+PideShop.o: server/PideShop.c
+	$(CC) $(CFLAGS) -c server/PideShop.c
 
 HungryVeryMuch: HungryVeryMuch.o
 	$(CC) $(CFLAGS) -o HungryVeryMuch HungryVeryMuch.o
 
-HungryVeryMuch.o: HungryVeryMuch.c
-	$(CC) $(CFLAGS) -c HungryVeryMuch.c
+HungryVeryMuch.o: client/HungryVeryMuch.c
+	$(CC) $(CFLAGS) -c client/HungryVeryMuch.c
 
 clean:
 	rm -f *.o $(TARGETS)
