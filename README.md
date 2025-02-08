@@ -1,2 +1,2 @@
 # GTUAssignments
-The projects developed within the concepts of the courses attended at GTU
+The projects developed within the concepts of the some classes attended at GTU
