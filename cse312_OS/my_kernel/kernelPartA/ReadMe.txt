@@ -1,0 +1,6 @@
+To compile codes: make or make run
+
+To clean compile files: make clean
+
+
+To run os: Create a virtual machine and select kernelA.iso file as storage then make in main directory
